@@ -11,9 +11,9 @@ T间复杂度为 O(nlogn) 的排序
 第 4 步，在每个桶内部做排序，在元素分布相对均匀的情况下，所有桶的运算量之和为 n。
 第 5 步，输出排序数列，运算量为 n。
 
-因此，桶排序的总体时间复杂度为 O(n)
-
+因此，桶排序的总体时间复杂度为 O(n) worst s = 0(nlogn)
 至于空间复杂度就很容易得到了，同样是 O(n)
+steady sort
 */
 public class BucketSort {
     public static double[] bucketSort(double[] array) {

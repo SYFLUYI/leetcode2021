@@ -1,7 +1,10 @@
 package com.company;
-
 import java.util.Arrays;
-
+/*
+T = 0(n^2)
+S = 0(1)
+steady rank
+ */
 public class BubbleSort {
     public static void sort(int array[])
     {

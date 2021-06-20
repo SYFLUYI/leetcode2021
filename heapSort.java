@@ -1,8 +1,11 @@
 package com.company;
 import  java.util.Arrays;
-
 // T = O(n)
-// s =
+/*
+T = 0(nlogn) worst T = 0(nlogn)
+S = 0(1)
+NOT steady rank
+ */
 
 public class heapSort {
     /**我们再来回顾一下堆排序算法的步骤。

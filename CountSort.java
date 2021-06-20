@@ -2,8 +2,8 @@ package com.company;
 // m = max - min
 // t(O) = O(n+m)
 // s = O(m)
+// yes steady sort
 /// not good for big diff max-min or not whole num
-
 //这段代码在开头有一个步骤，就是求数列的最大整数值 max。后面创建的统计数组 countArray，长度是 max + 1，以此来保证数组的最后一个下标是 max。
 //优化版本的计数排序属于稳定排序
 

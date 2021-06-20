@@ -1,6 +1,10 @@
 package com.company;
 //快速排序的平均时间复杂度是 T = O(n log n)，但最坏情况下的时间复杂度是 O(n^2)
-// S = O()
+/*
+T = 0(nlogn) ~0(n^2)
+S = 0(logn)
+NOT steady rank
+ */
 //双边循环法， 递归
 public class QuickSort {
     public static void sort (int[] arr, int startIndex, int endIndex){
