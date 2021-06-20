@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Arrays;
 
-public class BabbleSort {
+public class BubbleSort {
     public static void sort(int array[])
     {
         int tmp = 0;
