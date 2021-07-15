@@ -1,6 +1,6 @@
 package com.company;
-// t = O()
-// S = O()
+// t = O(n^2)
+// S = O(1)
 
 public class SelectionSort {
     public static void sort(int array[]){
